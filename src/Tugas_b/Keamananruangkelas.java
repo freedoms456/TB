@@ -69,7 +69,8 @@ int HasilKeamanan;
     int Analisis(){
          setHasilKeamanan( getKekokohan()+ getKuncipintudanjendela()+ getBahaya());
         if(  getHasilKeamanan()>6){
-        System.out.println("Keamanan kelas yang baik");   
+        System.out.println("Keamanan kelas yang baik");  
+        return 1;
         }
         else{
         System.out.println("Keamanan kelas yang buruk");

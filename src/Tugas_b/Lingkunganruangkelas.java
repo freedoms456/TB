@@ -95,6 +95,7 @@ public class Lingkunganruangkelas extends kelasabstrak{
          setHasilLingkungan(  getKondisiLantai()+  getKondisiDinding()+  getKondisiAtap()+  getKondisiPintu()+  getKondisiJendela());
         if(  getHasilLingkungan()>9){
             System.out.println("Lingkungan kelas = Baik  ");
+            return 1;
         }
         else{
             System.out.println("Lingkungan kelas =buruk");

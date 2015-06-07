@@ -123,10 +123,11 @@ public class Kondisiruangkelas extends kelasabstrak{
     }
         if(getJumlahPintu() > 1){
             System.out.println("Jumlah Pintu Sesuai");
-            
+            return 1;
         }
         else{
             System.out.println("Jumlah Pintu Tidak Sesuai");
+            
         }
         return 0;
     }

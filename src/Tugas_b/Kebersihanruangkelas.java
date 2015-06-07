@@ -82,6 +82,7 @@ public class Kebersihanruangkelas extends kelasabstrak{
          setHasilKebersihan(  getSirkulasiUdara()+  getNilaiPencahayaan()+  getKelembapan()+  getSuhu());
         if(  getHasilKebersihan()>9){
         System.out.println("Kebersihan kelas yang Baik");
+        return 1;
         }
         else{
             System.out.println("Kebersihan kelas yang Buruk");
